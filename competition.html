@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container p-3">
+        
+        <div class="nav pb-3">
+            <div class="event-log ">
+                <img src="logo.png" style="width: 200px;" alt="">
+            </div>
+            <div id="Competition" onclick="window.location='competition.html'" class="nav-item p-2 bg-primary ">
+                <i class="fab fa-cloudversify fa-lg"></i>
+                <h4>Competition</h4>
+            </div>
+            <div id="board" onclick="window.location='index.html'" class="nav-item p-2 bg-primary ">
+                <div><i class="fa fa-trophy fa-lg"></i></div>
+                <h4>Leader Board</h4>
+            </div>
+            <div class="instruction nav-item p-2 bg-primary instruction-tab">
+                <div><i class="fas fa-pencil-ruler fa-lg"></i></div>
+                <h4>Instruction</h4>
+            </div>
+            <div class="prize nav-item p-2 bg-primary price-tab">
+                <div><i class="fa fa-award fa-lg"></i></div>
+                <h4>Prizes</h4>
+            </div>
+            
+        </div>
+    </div>
+</body>
+<script src="competition.js"></script>
+</html>
